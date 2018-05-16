@@ -14,7 +14,7 @@ In 84.2% cases all nodes received the packet
 Average iterations for complited cases: 81.0
 Average iterations for uncomplited cases: 76.64556962025317
 ```
-**в случае отсутсвия нужной версии python интерпритатора, можно запустить с помощью
+**в случае отсутсвия нужной версии python интерпретатора, можно запустить с помощью
 Docker контейнера python 3.6**
 ```
 docker run -it --rm -v "$PWD":/code -w /code python:alpine3.6 python simulate.py -n 20 -i 1000
